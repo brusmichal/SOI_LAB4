@@ -87,8 +87,9 @@ void ConsumeMD(){
         std::this_thread::sleep_for(RandomDelay());
         std::cout<<"=====================================================================" << std::endl;
         std::cout << "Eating meat dumpling." << std::endl;
-        bufferDough.consume();
         bufferMeat.consume();
+        bufferDough.consume();
+        
     }
 }
 void ConsumeCHD(){
@@ -96,8 +97,9 @@ void ConsumeCHD(){
         std::this_thread::sleep_for(RandomDelay());
         std::cout<<"=====================================================================" << std::endl;
         std::cout << "Eating cheese dumpling." << std::endl;
-        bufferDough.consume();
         bufferCheese.consume();
+        bufferDough.consume();
+        
     }
 }
 void ConsumeCD(){
@@ -105,8 +107,9 @@ void ConsumeCD(){
         std::this_thread::sleep_for(RandomDelay());
         std::cout<<"=====================================================================" << std::endl;
         std::cout << "Eating cabbage dumpling." << std::endl;
-        bufferDough.consume();
         bufferCabbage.consume();
+        bufferDough.consume();
+        
     }
 }
 
